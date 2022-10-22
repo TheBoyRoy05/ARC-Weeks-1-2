@@ -38,15 +38,15 @@ public final class Constants {
         public static double pidD = 0.0;
     } 
     
-    public static final class leftFlywheelFF {
+    public static final class rightFlywheelFF {
         public static final double kS = 0.53709;
         public static final double kV = 0.28844;
         public static final double kA = 0.015011;
     }
         
-    public static final class rightFlywheelFF {
-        public static final double kS = 0.0;
-        public static final double kV = 0.0;
-        public static final double kA = 0.0;
+    public static final class leftFlywheelFF {
+        public static final double kS = 0.69742;
+        public static final double kV = 0.28781;
+        public static final double kA = 0.010766;
     }        
 }
